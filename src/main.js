@@ -2,9 +2,25 @@
 //   - Crea un array di stringhe con un po’ di elementi e scrivi una funzione che restituisca l’indice di un elemento specifico che stai cercando.
 // - Crea un array di numeri(es.prezzi) e scrivi una funzione che restituisca il prezzo totale
 //   - Crea un array di frutta e rimuovere un elemento che si trova in una posizione che non sia all’inizio o alla fine dell’arrays
+{
+  console.log("esercizio 1")
 
-console.log("esercizio 1")
+  const bands = ["band1", "band2"]
 
-const bands = ["band1", "band2"]
+  bands.forEach(band => console.log(band))
+}
 
-bands.forEach(band => console.log(band))
+{
+  console.log("esercizio 2")
+
+  const strings = ["banana", "mela", "kiwi"]
+
+  function trovaIndice(array, Elemento) {
+    console.log(array.findIndex(E => E === Elemento))
+
+  }
+
+  trovaIndice(strings, "mela")
+
+}
+
