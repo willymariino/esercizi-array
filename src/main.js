@@ -1,0 +1,4 @@
+- Crea un array delle tue band preferite e mostra in console i singoli elementi
+  - Crea un array di stringhe con un po’ di elementi e scrivi una funzione che restituisca l’indice di un elemento specifico che stai cercando.
+- Crea un array di numeri(es.prezzi) e scrivi una funzione che restituisca il prezzo totale
+  - Crea un array di frutta e rimuovere un elemento che si trova in una posizione che non sia all’inizio o alla fine dell’array
